@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flappy Bird</title>
+    <link rel="icon" href="assets/favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div id="start">
+        <image id="get_ready" src="assets/get_ready.svg" alt="Get Ready"></image>
+    </div>
+    <div id="game">
+        <div id="block"></div>
+        <div id="hole"></div>
+        <div id="bird">
+            <img id="bird_image" src="assets/bird_flap.svg" alt="Bird" />
+        </div>
+        <div id="base"></div>
+    </div>
+    <div id="result">
+        <image id="game_over" src="assets/game_over.svg" alt="Game Over"></image>
+        <p id="text"></p>
+        <button id="restart_button" onclick="location.reload()">Restart</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
