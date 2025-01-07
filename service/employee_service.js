@@ -58,7 +58,7 @@ function getAllPendingTaskEmployees() {
 }
 
 function getAllEmployees() {
-  return employees.values();
+  return [...employees.values()];
 }
 
 module.exports = {
